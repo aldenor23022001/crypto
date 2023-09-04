@@ -1,0 +1,10 @@
+valor1 = float(input('digite um número: '))
+valor2 = float(input('digite outro número: '))
+
+if valor1 > valor2:
+    print(f'o valor1 {valor1} é maior que {valor2}')
+elif valor2 > valor1:
+    print(f'o valor2 {valor2} é maior que {valor1}')
+else:
+    print('o valor são inváidos!')        
+
