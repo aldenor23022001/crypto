@@ -1,0 +1,9 @@
+valor1 = float(input('digite um valor: '))
+valor2 = float(input('digite o segundo valor: '))
+
+if valor1 == valor2:
+    print('os valores sao iguais')
+elif valor1 > valor2:
+    print(f'a ordem crescente é {valor2} e {valor1}')
+else:
+    print(f'a ordem crescente é {valor1} e {valor2}')
